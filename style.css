@@ -39,59 +39,67 @@ a {
   background-color: rgba(255, 255, 255, 0.3);
   line-height: 60px;
 }
-.header .logo {
+.logo {
   float: left;
-  margin: 5px 50px;
-  height: 50px;
+  height: 60px;
+  margin-left: 50px;
+  padding: 10px;
 }
-.header .logo .logolink img {
-  height: 100%;
+.logo img {
+  height: 40px;
 }
-.header .nav {
+.nav {
   float: left;
+  margin-left: 50px;
 }
-.header .nav ul li {
+.nav ul li {
   float: left;
-  margin: auto 15px;
+  margin: 0 15px;
 }
-.header .nav ul li a {
+.nav ul li a {
+  display: block;
+  height: 60px;
+  padding: 0 10px;
+  line-height: 60px;
   color: rgb(80, 40, 5);
   font-size: 20px;
   font-family: 微软雅黑;
 }
-.header .nav ul li a:hover {
+.nav ul li a:hover {
   color: orange;
   font-size: 20px;
 }
-.header .search {
+.search {
   float: left;
-  margin: 15px 150px;
-  border: 1px solid rgb(89, 62, 11);
-  border-radius: 20px;
+  height: 60px;
+  width: 500px;
+  margin-left: 150px;
 }
-.header .search input {
+.search input {
   float: left;
-  margin-left: auto 15px;
-  width: 250px;
-  height: 30px;
-  color: rgb(122, 64, 16);
-  text-align: center;
-  border: none;
-  background-color: transparent;
+  margin: 10px 0;
+  padding-left: 15px;
+  width: 345px;
+  height: 38px;
+  border: 1px solid #00a4ff;
+  border-right: 0;
+  color: #bfbfbf;
+  font-size: 14px;
 }
-.header .search input:focus {
+.search input:focus {
   outline: none;
   color: rgb(221, 125, 22);
   background-color: transparent;
 }
-.header .search button {
-  float: right;
-  margin-right: 10px;
-  height: 28px;
+.search button {
+  float: left;
+  display: block;
+  height: 40px;
   border: none;
+  margin: 10px 0;
 }
-.header .search button img {
-  height: 28px;
+.search button img {
+  height: 40px;
 }
 
 .content {
