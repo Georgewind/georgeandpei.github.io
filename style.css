@@ -59,13 +59,14 @@ a {
   height: 60px;
   padding: 0 10px;
   line-height: 60px;
-  color: #0ba4e8;
+  color: orange;
   font-size: 20px;
   font-family: 微软雅黑;
 }
 .nav ul li a:hover {
-  color: #ff7f27;
+  color: #d86a20;
   font-size: 20px;
+  text-decoration: underline;
 }
 .search {
   float: right;
@@ -104,7 +105,7 @@ a {
   margin: 0 auto;
 }
 .content h1 {
-  color: orange;
+  color: #00a2e8;
   margin: 300px auto 500px;
   font-size: 48px;
 }
@@ -119,7 +120,7 @@ a {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 宋体;
 }
 .footer p {
   height: 20px;
